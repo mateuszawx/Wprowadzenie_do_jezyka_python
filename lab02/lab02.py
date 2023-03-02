@@ -14,5 +14,8 @@ lorem = 'Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w prz
 
 # ZAD 3
 
-pierwsza_litera = 'Mateusz'[0]
-druga_litera = 'Kuczmarski'[3] 
+pierwsza_litera = 'Mateusz'[3]
+druga_litera = 'Kuczmarski'[4]
+ilosc_liter1 = lorem.count(pierwsza_litera)
+ilosc_liter2 = lorem.count(druga_litera)
+print(f'W tekście jest {ilosc_liter1} liter {pierwsza_litera} oraz {ilosc_liter2} liter {druga_litera} ')
