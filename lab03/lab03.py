@@ -22,13 +22,24 @@ print('\n')
 
 # ZAD 3
 print('Zadanie 3')
-
+tekst = input("Podaj przykładowy tekst:\n").lower()
+unikalne_znaki=set(tekst)
+unikalne_znaki1=list(unikalne_znaki)
+unikalne_znaki1.sort()
+print(unikalne_znaki1)
 print('\n')
+
 # ZAD 4
 print('Zadanie 4')
 slownik = dict([(1, 'Styczen'), (2, 'Luty'),(3, 'Marzec'),(4,'Kwiecien'),(5,'Maj'),(6,'Czerwiec'),(7,'Lipiec'),(8,'Sierpien'),(9,'Wrzesien'),(10,'Pazdziernik'),(11,'Listopad'),(12,'Grudzień')])
 print(slownik.keys())
 print(slownik.values())
 print('\n')
+
+# ZAD 5
+print('Zadanie 5')
+
+print('\n')
+
 
 
